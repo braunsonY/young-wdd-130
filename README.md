@@ -1,4 +1,4 @@
-# young-wdd-130
-This is my final project site for WDD 130 at BYUI
+# WDD 130 Final Project
+Owner: Braunson Young
 
-its cool
+Semester: Winter 2021
