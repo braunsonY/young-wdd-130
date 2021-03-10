@@ -79,6 +79,13 @@ main {
     background-color: var(--background-color);
 }
 
+form{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
 footer {
     display: grid;
     grid-template-rows: auto;
