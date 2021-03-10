@@ -45,8 +45,12 @@ header a {
     color: var(--alt-font-color);
 }
 
-element.style {
-    
+header #company-name{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 header nav {
