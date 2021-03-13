@@ -3,17 +3,24 @@
     --spacing: 15px;
     --font-size: 1.15rem;
     /* Normal Colors */
-    --background-color: white;
-    --alt-background-color: gainsboro;
-    --font-color: black;
-    --alt-font-color: darkslategray;
+    --background-color:rgb(117, 112, 112);
+    --alt-background-color: rgb(192, 10, 10);
+    --primary-color: dodgerblue;
+    --alt-primary-color: rgb(9, 134, 236);
+    --font-color: white;
+    --alt-font-color: gainsboro;
     --border-color: black;
     /* Dark Mode Colors */
-    --dark-background-color: black;
-    --dark-alt-background-color: darkslategray;
+    --dark-background-color: rgb(112, 110, 110);
+    --dark-alt-background-color: rgb(112, 6, 20);
+    --dark-primary-color: black;
+    --dark-alt-primary-color:  rgb(235, 235, 235);
     --dark-font-color: white;
     --dark-alt-font-color: gainsboro;
     --dark-border-color: white;
+
+     
+     
 }
 
 html, body {
@@ -22,7 +29,12 @@ html, body {
     width: 100%;
     height: 100%;
     text-rendering: optimizeLegibility;
+    background-color: rgb(189, 185, 185);
 }
+
+p.solid {
+    font-size: 30px;
+  }
 
 body {
     display: flex;
@@ -43,6 +55,11 @@ header {
 
 header a {
     color: var(--alt-font-color);
+}
+
+#logo {
+    width: auto;
+    height: 100px;
 }
 
 header #company-name{
@@ -77,6 +94,57 @@ main {
     padding: var(--spacing);
     color: var(--font-color);
     background-color: var(--background-color);
+}
+
+h1{
+    font-size: 45px;
+}
+section.two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-style: ridge;
+    border-color: black;
+    margin: 30px;
+  }
+  
+  section.two-cols .left-column{
+    grid-column: 1;
+    width: auto;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 50px;
+  }
+  
+  
+  section.two-cols .right-column{
+    grid-column: 2;
+    width: auto;
+    padding: 30px;
+    margin: 20px;
+    margin-left: 75px;
+  }
+
+  section.full-col{
+    text-align: center;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    margin: 30px;
+  }
+
+#rent{
+    width: 650px;
+    height: auto;
+}
+
+#people_theater{
+    width: 650px;
+    height: auto;
+}
+
+#popcorn{
+    width: 600px;
+    height: auto;
 }
 
 form{
