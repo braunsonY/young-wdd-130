@@ -19,8 +19,6 @@
     --dark-alt-font-color: gainsboro;
     --dark-border-color: white;
 
-     
-     
 }
 
 html, body {
@@ -51,6 +49,7 @@ header {
     border-bottom: 1px solid var(--border-color);
     color: var(--alt-font-color);
     background-color: var(--alt-background-color);
+    font-size: 23px;
 }
 
 header a {
@@ -68,6 +67,7 @@ header #company-name{
     display: flex;
     align-items: center;
     margin-left: auto;
+    font-size: 55px;
 }
 
 header nav {
