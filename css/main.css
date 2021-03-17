@@ -30,7 +30,7 @@ html, body {
     
 }
 
-p.solid {
+p{
     font-size: 30px;
   }
 
@@ -147,12 +147,19 @@ section.two-cols {
     height: auto;
 }
 
+#cooper{
+    height:150px;
+    width: auto;
+}
+
 form{
     display: block;
     width: 300px;
     height: auto;
     margin: 0 auto;
     border: 1px solid;
+    background-color: rgb(219, 209, 70);
+    
 }
 
 footer {
