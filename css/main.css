@@ -103,7 +103,6 @@ section.two-cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-style: ridge;
-    border-color: black;
     margin: 30px;
   }
   
@@ -187,8 +186,8 @@ form{
     height: auto;
     margin: 0 auto;
     border: 1px solid;
-    background-color: rgb(42, 202, 90);
-    /*background-color: rgb(170, 123, 49);*/
+    /*background-color: rgb(42, 202, 90);*/
+    background-color: rgb(2, 11, 93);
     justify-content: center;
     padding: 10px;
     border-radius: 9px;
