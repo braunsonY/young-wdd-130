@@ -1,12 +1,12 @@
 /* YOU WILL EDIT ALL THE COLORS BELOW */
 :root {
     /* Normal Colors */
-    --background-color: white;
-    --alt-background-color: rgb(235, 235, 235);
-    --primary-color: dodgerblue;
-    --alt-primary-color: rgb(9, 134, 236);
+    --background-color:rgb(117, 112, 112);
+    --alt-background-color: rgb(128, 128, 128);
+    --primary-color: rgb(192, 10, 10);;
+    --alt-primary-color: rgb(236, 9, 47);
     /* Dark Mode Colors */
-    --dark-background-color: rgb(1, 11, 20);
+    --dark-background-color: rgb(37, 35, 35);
     --dark-alt-background-color: rgb(2, 22, 39);
     --dark-primary-color: white;
     --dark-alt-primary-color:  rgb(235, 235, 235);
