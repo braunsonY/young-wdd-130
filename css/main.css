@@ -225,6 +225,21 @@ textarea{
     height: 250px;
 }
 
+#blueprint{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wireframe{
+    width: 600px;
+    height: 600px;
+    padding: 25px;
+    
+}
+
 footer {
     display: grid;
     grid-template-rows: auto;
