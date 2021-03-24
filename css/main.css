@@ -225,6 +225,23 @@ textarea{
     height: 250px;
 }
 
+#rent-table{
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td {
+    width: 600px;
+    border: 1px solid black;
+    margin: 15px;
+    
+  }
+
+th, td {
+    padding: 15px;
+    font-size: 30px;
+}
+
 #blueprint{
     display: flex;
     flex-direction: column;
@@ -237,7 +254,6 @@ textarea{
     width: 600px;
     height: 600px;
     padding: 25px;
-    
 }
 
 footer {
