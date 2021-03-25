@@ -234,7 +234,6 @@ table, th, td {
     width: 600px;
     border: 1px solid black;
     margin: 15px;
-    
   }
 
 th, td {
@@ -242,12 +241,19 @@ th, td {
     font-size: 30px;
 }
 
+button{
+    display: flex;
+    justify-content: center;
+    margin-left: 873px;
+    padding: 5px;
+    font-size: 20px;
+}
+
 #blueprint{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .wireframe{
