@@ -241,9 +241,10 @@ th, td {
     font-size: 30px;
 }
 
-button{
+#checkout-button{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-left: 873px;
     padding: 5px;
     font-size: 20px;
@@ -261,6 +262,33 @@ button{
     height: 600px;
     padding: 25px;
 }
+
+section.poster {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    margin: 30px;
+  }
+
+  section.poster .movie-left{
+    grid-column: 1;
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  
+  section.poster .movie-right{
+    grid-column: 2;
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+    
+  }
+
+
+  
+
 
 footer {
     display: grid;
