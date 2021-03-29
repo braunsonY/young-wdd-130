@@ -3,16 +3,16 @@
     --spacing: 15px;
     --font-size: 1.15rem;
     /* Normal Colors */
-    --background-color:rgb(117, 112, 112);
-    --alt-background-color: rgb(192, 10, 10);
+    --background-color:#757070;
+    --alt-background-color: #c00a0a;
     --font-color: white;
     --alt-font-color: gainsboro;
     --border-color: black;
     /* Dark Mode Colors */
-    --dark-background-color: rgb(37, 35, 35);
-    --dark-alt-background-color: rgb(112, 6, 20);
+    --dark-background-color: #252323;
+    --dark-alt-background-color: #700614;
     --dark-primary-color: black;
-    --dark-alt-primary-color:  rgb(235, 235, 235);
+    --dark-alt-primary-color:  #ebebeb;
     --dark-font-color: white;
     --dark-alt-font-color: gainsboro;
     --dark-border-color: white;
@@ -30,6 +30,7 @@ html, body {
 
 p{
     font-size: 30px;
+    padding: 10px;
   }
 
 body {
