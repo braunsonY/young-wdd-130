@@ -298,6 +298,11 @@ section.poster {
       color: white;
   }
 
+p.synopsis{
+    padding-right: 100px;
+    padding-bottom: 170px;
+}
+
 #test{
     padding-bottom: 65px;
 }
@@ -318,6 +323,7 @@ section.poster {
   padding: 2px;
   width: 100px;
   height: auto;
+  background-color: Transparent;
 }
   
 
