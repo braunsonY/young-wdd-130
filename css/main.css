@@ -331,7 +331,15 @@ p.synopsis{
   background-color: #c00a0a;
 }
   
+#purchase-tickets{
+    font-size: 25px;
+    width: 100px;
+}
 
+#theater-rent{
+    font-size: 25px;
+    width: 300px;
+}
 
 footer {
     display: grid;
